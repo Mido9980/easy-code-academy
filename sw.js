@@ -1,4 +1,4 @@
-const CACHE = "easycode-v2";
+const CACHE = "easycode-v3";
 const PRECACHE = [
   "./", "./index.html", "./offline.html",
   "./assets/style.css", "./assets/app.js", "./assets/lessons.js",
