@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EASY CODE — تعلّم البرمجة خطوة بخطوة</title>
+<meta name="description" content="منصة تعلم برمجة عربية: HTML و CSS و JavaScript بدروس مبسطة وأمثلة تُجرَّب مباشرة من المتصفح.">
+<meta name="theme-color" content="#0b1020">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topbar">
+  <button id="menuBtn" class="icon-btn" aria-label="القائمة">☰</button>
+  <a class="brand" href="#/home">
+    <span class="brand-mark">⚡</span>
+    <span class="brand-text">EASY <b>CODE</b></span>
+  </a>
+  <div class="searchbox">
+    <input id="search" type="search" placeholder="ابحث في الدروس…" autocomplete="off" aria-label="بحث">
+  </div>
+  <button id="themeBtn" class="icon-btn" aria-label="تبديل الوضع">🌙</button>
+</header>
+
+<div class="shell">
+  <aside id="sidebar" class="sidebar" aria-label="الدروس">
+    <div class="progress-card">
+      <div class="progress-top"><span>تقدّمك</span><span id="progressText">0%</span></div>
+      <div class="progress-bar"><i id="progressFill"></i></div>
+    </div>
+    <nav id="lessonNav"></nav>
+  </aside>
+  <main id="view" class="view" tabindex="-1"></main>
+</div>
+
+<footer class="footer">
+  <span>EASY CODE © 2026 — اتبني بجهدك يا مليجي 😄</span>
+  <a href="#/playground">المحرر التجريبي</a>
+</footer>
+
+<script src="assets/lessons.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
