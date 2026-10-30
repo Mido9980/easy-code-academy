@@ -129,3 +129,32 @@ code{font-family:var(--mono); font-size:13.5px; color:#e6ecff}
   .pg{grid-template-columns:1fr}
   .brand-text{display:none}
 }
+
+/* net pill + profile + programs */
+.net-pill{display:inline-block;margin-top:10px;font-size:11.5px;padding:3px 10px;border-radius:99px;background:var(--card-2);color:var(--muted);border:1px solid var(--line)}
+.net-pill.off{background:#3a1a1a;color:#ff9b9b;border-color:#7a2b2b}
+.prof-head{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.avatar{width:74px;height:74px;border-radius:22px;display:grid;place-items:center;font-size:34px;background:linear-gradient(145deg,#1b2a54,#0b1020);border:1px solid var(--line)}
+.avatar-picker{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.avatar-picker button{font-size:20px;width:42px;height:42px;border-radius:12px;background:var(--card-2);border:1px solid var(--line);cursor:pointer}
+.avatar-picker button.on{border-color:var(--gold);background:var(--gold-soft)}
+.field{display:block;margin:14px 0}
+.field label{display:block;font-size:13px;color:var(--muted);margin-bottom:6px}
+.field input{width:100%;max-width:420px;padding:11px 13px;border-radius:12px;border:1px solid var(--line);background:var(--bg-soft);color:var(--text);font-size:15px;outline:none}
+.field input:focus{border-color:var(--gold);box-shadow:0 0 0 3px var(--gold-soft)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin:18px 0}
+.kpi{background:var(--card-2);border:1px solid var(--line);border-radius:14px;padding:14px;text-align:center}
+.kpi b{display:block;font-size:24px;color:var(--gold)}
+.kpi span{font-size:12.5px;color:var(--muted)}
+.trackbar{margin:10px 0}
+.trackbar .lbl{display:flex;justify-content:space-between;font-size:13px;color:var(--muted);margin-bottom:6px}
+.bar{height:9px;border-radius:99px;background:var(--card-2);overflow:hidden}
+.bar i{display:block;height:100%;border-radius:99px}
+.res{display:grid;gap:14px;margin-top:16px}
+.res .item{display:flex;gap:14px;align-items:flex-start;background:var(--card-2);border:1px solid var(--line);border-radius:16px;padding:16px}
+.res .item .ico{font-size:26px;line-height:1}
+.res .item h3{margin:0 0 4px;color:var(--text);font-size:16px}
+.res .item p{margin:0 0 8px;color:var(--muted);font-size:13.5px}
+.res .item .tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
+.res .item .tags span{font-size:11px;padding:3px 9px;border-radius:99px;background:var(--gold-soft);color:var(--gold)}
+.badge-off{font-size:12px;padding:4px 10px;border-radius:99px;background:#12331f;color:#6ee7a0;border:1px solid #1f5c38}

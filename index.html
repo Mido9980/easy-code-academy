@@ -4,10 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>EASY CODE — تعلّم البرمجة خطوة بخطوة</title>
-<meta name="description" content="منصة تعلم برمجة عربية: HTML و CSS و JavaScript بدروس مبسطة وأمثلة تُجرَّب مباشرة من المتصفح.">
+<meta name="description" content="منصة تعلم برمجة عربية: HTML و CSS و JavaScript بدروس مبسطة وأمثلة تُجرَّب مباشرة، وتعمل بدون إنترنت على كل الأجهزة.">
 <meta name="theme-color" content="#0b1020">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="EASY CODE">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -20,6 +25,7 @@
   <div class="searchbox">
     <input id="search" type="search" placeholder="ابحث في الدروس…" autocomplete="off" aria-label="بحث">
   </div>
+  <button id="installBtn" class="icon-btn" aria-label="تثبيت التطبيق" title="تثبيت التطبيق" hidden>⬇️</button>
   <button id="themeBtn" class="icon-btn" aria-label="تبديل الوضع">🌙</button>
 </header>
 
@@ -28,6 +34,7 @@
     <div class="progress-card">
       <div class="progress-top"><span>تقدّمك</span><span id="progressText">0%</span></div>
       <div class="progress-bar"><i id="progressFill"></i></div>
+      <div id="netPill" class="net-pill">متصل</div>
     </div>
     <nav id="lessonNav"></nav>
   </aside>
@@ -35,8 +42,8 @@
 </div>
 
 <footer class="footer">
-  <span>EASY CODE © 2026 — اتبني بجهدك يا مليجي 😄</span>
-  <a href="#/playground">المحرر التجريبي</a>
+  <span>EASY CODE © 2026 — يعمل بدون إنترنت · كل الأجهزة</span>
+  <span><a href="#/programs">البرامج والمصادر</a> · <a href="#/profile">بروفايلي</a> · <a href="#/playground">المحرر</a></span>
 </footer>
 
 <script src="assets/lessons.js"></script>
